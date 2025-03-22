@@ -2,9 +2,9 @@
 
 declare(strict_types = 1);
 
-namespace DigitalCreative\Filepond\Http\Controllers;
+namespace Trscca\Filepond\Http\Controllers;
 
-use DigitalCreative\Filepond\Data\Data;
+use Trscca\Filepond\Data\Data;
 use Illuminate\Contracts\Container\BindingResolutionException;
 use Illuminate\Http\Response;
 use Laravel\Nova\Http\Requests\NovaRequest;
