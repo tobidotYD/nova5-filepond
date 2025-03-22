@@ -2,7 +2,7 @@
 
 declare(strict_types = 1);
 
-namespace DigitalCreative\Filepond;
+namespace Trscca\Filepond;
 
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\ServiceProvider;
