@@ -2,7 +2,7 @@
 
 declare(strict_types = 1);
 
-namespace DigitalCreative\Filepond\Data;
+namespace Trscca\Filepond\Data;
 
 use Illuminate\Support\Facades\Storage;
 
