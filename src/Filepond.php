@@ -2,10 +2,10 @@
 
 declare(strict_types = 1);
 
-namespace DigitalCreative\Filepond;
+namespace Trscca\Filepond;
 
 use Closure;
-use DigitalCreative\Filepond\Data\Data;
+use Trscca\Filepond\Data\Data;
 use Exception;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Http\File as SymfonyFile;
