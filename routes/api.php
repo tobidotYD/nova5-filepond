@@ -2,9 +2,9 @@
 
 declare(strict_types = 1);
 
-use DigitalCreative\Filepond\Http\Controllers\LoadController;
-use DigitalCreative\Filepond\Http\Controllers\ProcessController;
-use DigitalCreative\Filepond\Http\Controllers\RevertController;
+use Trscca\Filepond\Http\Controllers\LoadController;
+use Trscca\Filepond\Http\Controllers\ProcessController;
+use Trscca\Filepond\Http\Controllers\RevertController;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/load', LoadController::class)->name('nova.filepond.load');

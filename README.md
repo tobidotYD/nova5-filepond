@@ -1,9 +1,5 @@
 # Nova Filepond
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/digital-creative/nova-filepond)](https://packagist.org/packages/digital-creative/nova-filepond)
-[![Total Downloads](https://img.shields.io/packagist/dt/digital-creative/nova-filepond)](https://packagist.org/packages/digital-creative/nova-filepond)
-[![License](https://img.shields.io/packagist/l/digital-creative/nova-filepond)](https://github.com/dcasia/nova-filepond/blob/main/LICENSE)
-
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/dcasia/nova-filepond/main/screenshots/dark.png">
   <img alt="Laravel Nova Filepond in action" src="https://raw.githubusercontent.com/dcasia/nova-filepond/main/screenshots/light.png">
@@ -16,7 +12,7 @@ A Nova field for uploading File, Image and Video using [Filepond](https://github
 You can install the package via composer:
 
 ```shell
-composer require digital-creative/nova-filepond
+composer require trscca/nova-filepond
 ```
 
 # Features
@@ -39,7 +35,7 @@ The field extends the original Laravel Nova File field, so you can use all the m
 Basic usage:
 
 ```php
-use DigitalCreative\Filepond\Filepond;
+use Trscca\Filepond\Filepond;
 
 class Post extends Resource
 {
@@ -72,7 +68,7 @@ class Post extends Model {
 You can also store original file name / size by using `storeOriginalName` and `storeOriginalSize` methods.
 
 ```php
-use DigitalCreative\Filepond\Filepond;
+use Trscca\Filepond\Filepond;
 
 class Post extends Resource
 {
